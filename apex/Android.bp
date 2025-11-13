@@ -1,5 +1,9 @@
 prebuilt_apex {
     name: "com.google.android.permission",
+    apps: [
+        "GooglePermissionController",
+        "GoogleSafetyCenterResources",
+    ],
     source_apex_name: "com.google.android.permission",
     required: [
         "framework-permission.com.android.permission",
