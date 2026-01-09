@@ -1,0 +1,11 @@
+android_app_import {
+    name: "Ambient-Music",
+    owner: "sourajitk",
+    apk: "Ambient-Music.apk",
+    presigned: true,
+    preprocessed: true,
+    dex_preopt: {
+        enabled: false,
+    },
+    system_ext_specific: true,
+}
